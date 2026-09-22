@@ -16,7 +16,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -o Detention_Memo_Project_FINAL_UI_v5_FIXED.zip
+          unzip -o Detention_Memo_Project_FINAL_UI_v6_WTT_TFC_Message.zip
           echo "Project extracted"
 
       - name: Set up Java 17
