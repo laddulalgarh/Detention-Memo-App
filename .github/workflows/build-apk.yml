@@ -1,3 +1,4 @@
+
 name: Build Detention Memo APK
 
 on:
@@ -16,7 +17,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -o Detention_Memo_FINAL_RELEASE_FIXED.zip
+          unzip -o Detention_Memo_FINAL_RELEASE_LINEFIX_LS_TOTAL_FIX.zip
           echo "Project extracted"
 
       - name: Set up Java 17
